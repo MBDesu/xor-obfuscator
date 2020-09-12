@@ -1,6 +1,6 @@
 # XOR Obfuscator
 
-This is a utility I wrote to help me in solving a CTF. It encodes a string by XORing each character of the string with the next, then overwriting the next value with the result. Repeat until end of string. Decoding performs the reverse operation, taking in the raw data in the form of space delimited hexadecimal and producing the string.
+This is a utility I wrote to help me in solving a reverse engineering/forensics CTF. It encodes a string by XORing each character of the string with the next, then overwriting the next value with the result. Repeat until end of string. Decoding performs the reverse operation, taking in the raw data in the form of space delimited hexadecimal and producing the string.
 
 In the CTF, this was used as as an obfuscation technique for input as plaintext for AES encryption, so it was vital to understand this obfuscation technique in order to solve the CTF. I wrote this utility to that end.
 
